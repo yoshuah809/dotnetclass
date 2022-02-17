@@ -10,6 +10,6 @@ namespace netCoreClass
     {
         void groceries();
         void sales();
-        void RequestPayment();
+        double RequestPayment();
     }
 }

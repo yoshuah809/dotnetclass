@@ -13,7 +13,7 @@ namespace netCoreClass
             throw new NotImplementedException();
         }
 
-        public override List<Product> getProduct(string value)
+        public override List<Product> getProduct()
         {
             throw new NotImplementedException();
         }

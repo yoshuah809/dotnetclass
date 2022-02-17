@@ -8,14 +8,19 @@ namespace netCoreClass
 {
     public class Groceries : Warehouse
     {
+        private List<Product> Grocery_List;
+        public Groceries()
+        {
+            Grocery_List = new List<Product>();
+        }
         public override void addProduct(Product product)
         {
-            
+            Grocery_List.Add(product);
         }
 
-        public override List<Product> getProduct(string value)
+        public override List<Product> getProduct()
         {
-            throw new NotImplementedException();
+            return Grocery_List;
         }
     }
 }

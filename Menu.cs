@@ -6,25 +6,43 @@ using System.Threading.Tasks;
 
 namespace netCoreClass
 {
-    public class Menu 
+    public class Menu : IMenu
     {
-        private string s;
-
-        public Menu(string s)
+        Warehouse product = new Groceries();
+        public void groceries()
         {
-            this.s = s;
-           
+            var option = "";
+            var value = false;
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("Groceries Sale");
+                if(product.getProduct().Count == 0)
+                {
+                    Console.WriteLine("There is no product/grocery available");
+                    Console.WriteLine("do you want to add any product? press the keyword s/n");
+
+                    option = Console.ReadLine();
+                    if(option.Equals("s"))
+                    {
+                        Console.WriteLine("How many product do you want to add?");
+                        int qty = Convert.ToInt32(Console.ReadLine());
+                    }
+                }
+            } while (value);
         }
 
-        public void addProduct()
-        { }
+        public double RequestPayment()
+        {
+            throw new NotImplementedException();
+        }
 
-
+        public void sales()
+        {
+            throw new NotImplementedException();
+        }
     }
-        interface IProduct
-        {
-            void addProduct();
-        }
-    
+
+
 
 }
