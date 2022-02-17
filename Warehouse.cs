@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace netCoreClass
 {
-    public abstract class Main
+    public abstract class Warehouse
     {
-        public void getProduct()
-        {
-            Console.WriteLine("Hi, I am Josue");
-        }
+        public abstract List<Product> getProduct(string value);
+
+        public abstract void addProduct(Product product);
+        
     }
 }

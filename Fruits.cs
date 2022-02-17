@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace netCoreClass
 {
-    class Fruits
+    public class Fruits : Warehouse
     {
     }
 }

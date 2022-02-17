@@ -6,34 +6,25 @@ using System.Threading.Tasks;
 
 namespace netCoreClass
 {
-    public class Menu : Main, IProduct
+    public class Menu 
     {
         private string s;
 
         public Menu(string s)
         {
             this.s = s;
-            base.getProduct();
+           
         }
 
         public void addProduct()
+        { }
+
+
+    }
+        interface IProduct
         {
-            
+            void addProduct();
         }
-
-       
-
-        //protected virtual void getProduct()
-        //{
-        //    Console.WriteLine(s);
-        //}
-
-        
-    }
-
-    interface IProduct
-    {
-        void addProduct();
-    }
+    
 
 }
