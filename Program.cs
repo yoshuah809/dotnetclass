@@ -2,18 +2,16 @@
 
 namespace netCoreClass
 {
-    class Program: Menu
+    class Program
     {
        
-        public Program (string s) : base(s)
-        {   
-            
-        }
+        
         static void Main(string[] args)
         {
-           
+            //instantiate warehouse object
+            var product = new Groceries();
             Console.ReadKey();
-            new Program("Company: Sales Itnl LLC");      
+           
 
         }
 
