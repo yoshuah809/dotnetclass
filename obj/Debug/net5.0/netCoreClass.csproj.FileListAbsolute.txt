@@ -1,0 +1,16 @@
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\bin\Debug\net5.0\netCoreClass.exe
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\bin\Debug\net5.0\netCoreClass.deps.json
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\bin\Debug\net5.0\netCoreClass.runtimeconfig.json
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\bin\Debug\net5.0\netCoreClass.runtimeconfig.dev.json
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\bin\Debug\net5.0\netCoreClass.dll
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\bin\Debug\net5.0\ref\netCoreClass.dll
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\bin\Debug\net5.0\netCoreClass.pdb
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\obj\Debug\net5.0\netCoreClass.csproj.AssemblyReference.cache
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\obj\Debug\net5.0\netCoreClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\obj\Debug\net5.0\netCoreClass.AssemblyInfoInputs.cache
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\obj\Debug\net5.0\netCoreClass.AssemblyInfo.cs
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\obj\Debug\net5.0\netCoreClass.csproj.CoreCompileInputs.cache
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\obj\Debug\net5.0\netCoreClass.dll
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\obj\Debug\net5.0\ref\netCoreClass.dll
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\obj\Debug\net5.0\netCoreClass.pdb
+C:\Users\person\source\repos\ClassesandObject\netCoreClass\obj\Debug\net5.0\netCoreClass.genruntimeconfig.cache
