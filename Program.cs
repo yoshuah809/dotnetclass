@@ -13,15 +13,5 @@ namespace netCoreClass
             new Program().groceries();
 
         }
-
-        private void start()
-        {
-            groceries();
-        }
-
-        //protected override void getProduct()
-        //{
-        //    Console.WriteLine("Santa Claus is comming tonight");
-        //}
     }
 }
