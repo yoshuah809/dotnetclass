@@ -13,8 +13,13 @@ namespace netCoreClass
         {
            
             Console.ReadKey();
-            new Program("Company: Sales Itnl LLC").getProduct();
+            new Program("Company: Sales Itnl LLC");      
 
         }
+
+        //protected override void getProduct()
+        //{
+        //    Console.WriteLine("Santa Claus is comming tonight");
+        //}
     }
 }
