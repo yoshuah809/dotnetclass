@@ -2,11 +2,19 @@
 
 namespace netCoreClass
 {
-    class Program
+    class Program: Menu
     {
+       
+        public Program (string s) : base(s)
+        {   
+            
+        }
         static void Main(string[] args)
         {
-            Console.ReadKey();  
+           
+            Console.ReadKey();
+            new Program("Company: Sales Itnl LLC").getProduct();
+
         }
     }
 }

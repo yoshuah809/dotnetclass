@@ -8,9 +8,16 @@ namespace netCoreClass
 {
     public class Menu
     {
+        private string s;
+
+        public Menu(string s)
+        {
+            this.s = s;
+        }
+
         public void getProduct()
         {
-            Console.WriteLine("C# Class");
+            Console.WriteLine(s);
         }
     }
 }
