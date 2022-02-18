@@ -18,9 +18,18 @@ namespace netCoreClass
             Grocery_List.Add(product);
         }
 
-        public override List<Product> getProduct()
+        public override List<Product> getProduct(string prod)
         {
-            return Grocery_List;
+            var groceries = new List<Product>();
+            if (prod.Equals(""))
+            {
+                groceries = Grocery_List;
+            }
+            else
+            {
+                groceries = Grocery_List.Where(p => p.Name.Equals(prod)).ToList();
+            }
+            return groceries;
         }
     }
 }

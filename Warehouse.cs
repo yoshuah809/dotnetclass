@@ -8,7 +8,7 @@ namespace netCoreClass
 {
     public abstract class Warehouse
     {
-        public abstract List<Product> getProduct();
+        public abstract List<Product> getProduct(string prod);
 
         public abstract void addProduct(Product product);
         
